@@ -3,7 +3,7 @@ body {
     overflow: initial;
     line-height: 1.5em;
     font-size: 18px;
-    color: #000;
+    color: rbg(111, 109, 111);
     font-family: 'Open Sans', sans-serif; 
 }
 .main {
@@ -11,10 +11,10 @@ body {
     overflow: initial;
 }
 .container {
-    margin-top: 80px;
+    margin-top: 79px;
     border-color: rgb(158, 167, 178);
     border-width: 5px;
-    border-style: solid;
+    border-style: solid;    
     background-color: rgb(255, 255, 255);
     opacity: 1;
     position: relative;
@@ -37,7 +37,8 @@ body {
     margin-top: 80px;
     border-color: rgb(158, 167, 178);
     outline: none;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255, 0);
+    /*background-color: rbg(89, 197, 21); */
     opacity: 1;
     position: relative;
     top: 0px;
@@ -124,13 +125,14 @@ p     {
 
 .footer {
     text-align: center;
-    color: rgba(64, 64, 64, 0.709804);
+    color: rgba(64, 64, 64, 0.579804);
     font-size: 16px;
     margin: .65em;
     padding-top: 40px;
     padding-bottom: 40px;
     outline: none;
     font-weight: 100;
+    line-height: 1.40em;
 }
 /*
 ********** Countdown Clock **********
@@ -138,7 +140,7 @@ p     {
 
 .timer {
     margin-top: .6em;
-    margin-bottom: 1em;
+    margin-bottom: 85px;
     text-align: center;
     background: #fff;
     font-weight: 100;
@@ -199,8 +201,20 @@ p     {
     
     #item-2 {
         margin-bottom: 0px;
-}  
+    }  
+    .timer {
+        margin-bottom: 2em;
+        
+    }
     
+}
+
+
+
+@media (min-width: 770px) and (max-width: 977px) {
+    .container {
+        width: 100%;
+    }
 }
 
 
@@ -282,6 +296,7 @@ p     {
     
     #item-2 {
         margin-right: -2.9em;
+        margin-bottom: 0px;
     }
     
     .red {
@@ -292,8 +307,9 @@ p     {
     }
     
     .timer {
+        margin-top: -5px;
         margin-left: -1em;
-        margin-bottom: 5px;
+        margin-bottom: 0px;
     }
 }
 
@@ -343,16 +359,18 @@ p     {
 
     .red {
         position: relative;
-        margin-top: -10px;
-        margin-right: -2.5em;
-        margin-left: -1.5em;
+        margin-top: 10px;
+        margin-right: -2em;
+        margin-left: -2.2em;
         padding-left: 0px;
         padding-right: 0px;
         
     }
     .timer {
         margin-top: -10px;
-        margin-bottom: 1.25em;
+        margin-bottom: 1.4em;
+        margin-left: -1em;
+        margin-right: -2em;
     }
 }
 
