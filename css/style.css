@@ -317,6 +317,7 @@ p     {
 @media (min-width: 320px) and (max-width: 437px) {
       .container {
         margin-top: 80px;
+        width: 100%;
     }
      .logo-img {
         margin-top: 0px;
@@ -372,5 +373,65 @@ p     {
         margin-left: -1em;
         margin-right: -2em;
     }
+}
+
+@media (min-width: 270px) and (max-width: 348px) {
+
+   
+
+    .container {
+        min-width: 100%;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding-left: 5px;
+    }
+    
+    
+    
+    .col-md-12  {
+        padding-left: 5px;
+        padding-right: 20px;
+        width: 100%;
+        border: 0px;
+    }
+    
+    .headline {
+        font-size: 32px;
+        margin-top: 25px;
+        margin-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    
+    .subheadline {
+        margin-top: 5px; 
+    }
+  
+    .directions {
+        margin-left: 5px;
+        padding-right: 55px;
+    }
+    
+     #item-2 {
+        margin-bottom: 0px;
+        margin-right: -2em;
+    }
+    
+    .red {
+        position: relative;
+        margin-top: 10px;
+        margin-left:.25em;
+        margin-right: .25em;
+        padding-left: 0px;
+        padding-right: 0px;
+        
+    }
+    .timer {
+       padding: 0px;
+       margin-right: -1em;
+       margin-left: -0.5em;
+    }
+    
 }
 
